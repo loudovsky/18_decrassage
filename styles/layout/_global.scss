@@ -1,0 +1,27 @@
+body {
+    
+}
+.wrapper {
+    width:  1000px;
+    margin: 0 auto;
+    .square {
+        font-family: "Roboto", sans-serif;
+        padding:2rem;
+        background:#fff;
+        box-shadow: 1px 1px 10px #0000009d; 
+        border-radius: 10px;
+        .result {
+            color:tomato;
+            font-weight: 500;
+        }
+    }
+}
+
+h1 {
+    color:#c20404;
+    text-align: right;
+    text-shadow: 1px 1px 5px #c20404;
+    font-weight: 200;
+    font-size: 50px;
+    margin-bottom: 0;   
+}
