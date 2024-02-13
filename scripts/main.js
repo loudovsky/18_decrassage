@@ -12,3 +12,10 @@ myButton.addEventListener('click', function() {
     userInput.value = "";
 })
 
+myButton.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        changeBodyColor();
+    } 
+})
+
+

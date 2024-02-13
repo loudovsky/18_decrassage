@@ -1,5 +1,5 @@
 body {
-    
+    @include transition;
 }
 .wrapper {
     width:  1000px;
